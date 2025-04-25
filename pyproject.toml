@@ -1,0 +1,18 @@
+[project]
+name = "asda"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "VadimBatsko",email = "batsko1999god@gmail.com"}
+]
+readme = "README.md"
+requires-python = "3.12.9"
+dependencies = [
+    "datetime (==5.5)",
+    "pathlib (==1.0.1)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
